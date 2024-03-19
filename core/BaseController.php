@@ -24,3 +24,12 @@ class BaseController{
         }
     }
 }
+
+
+/**
+ * Note:
+ *      su dung bien extract($data); chuyen doi cac phan tu cua mang data -> cac bien doc lap
+ *          Ex: $data = ['name' => 'John','age' => 30];
+ *              => $name = 'John';
+ *              => $age = '30';
+ */

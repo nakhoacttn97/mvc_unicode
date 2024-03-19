@@ -1,5 +1,7 @@
 
 <p>Chi tiet san pham</p>
 <?php
-echo $data['info'];
+echo $info;
 ?>
+<hr/>
+Tieu de: <?=$title?>
